@@ -18,7 +18,7 @@
 html {
   /* 영문이면 roboto가 적용되고, 한글이면 Noto Sans KR가 적용되도록 아래와 같은 순서로 배치 */
   /* font-family: "Roboto", "Noto Sans KR", sans-serif; */
-  font-family: 'KoPubDotumbold';
+  font-family: 'KoPubDotumMedium';
 }
 
 /* 폰트 적용 */
@@ -146,6 +146,7 @@ header {
   top: 0;
   left: 0;
   border-bottom: 1px solid rgba(0, 0, 0, .1);
+  z-index: 1000;
 }
 
 /* 로고 */
@@ -337,7 +338,8 @@ header .global_logo:hover > img {
 
 /* ------------- 메인 배너 시작 ------------- */
 .main_banner {
-    position: relative;
+  position: relative;
+  margin-top: 80px;
 }
 
 .main_banner > .banner_img {
@@ -345,34 +347,34 @@ header .global_logo:hover > img {
 }
 
 .main_banner > .bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 720px;
-    z-index: -1;
-    background-color: #ffef6b;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 720px;
+  z-index: -1;
+  background-color: #ffef6b;
 }
 
 /* 텍스트 시작 */
 .main_banner .text_box {
-position: absolute;
-top: 130px;
-left: 20px;
+  position: absolute;
+  top: 130px;
+  left: 20px;
 }
 
 .main_banner .text_box > h3 {
-margin: 0;
-font-size: 49px;
-line-height: 1.4;
+  margin: 0;
+  font-size: 49px;
+  line-height: 1.4;
 }
 .main_banner .text_box > p {
-font-size: 16px;
-line-height: 1.95;
-opacity: .7;
+  font-size: 16px;
+  line-height: 1.95;
+  opacity: .7;
 }
 .main_banner .text_box > .btns {
-margin-top: 50px;
+  margin-top: 50px;
 }
 
 .main_banner .text_box > .btns > li:first-child {
@@ -380,35 +382,35 @@ margin-right: 12px;
 }
 
 .main_banner .text_box > .btns > li > a {
-display: block;
-width: 178px;
-height: 56px;
-border: 1px solid rgba(255, 255, 255, .3);
-border-radius: 12px;
-font-size: 16.2px;
-font-weight: bold;
-line-height: 56px;
-color: #333;
-background-color: #fff;
-display: flex;
-align-items: center;
-justify-content: center;
+  display: block;
+  width: 178px;
+  height: 56px;
+  border: 1px solid rgba(255, 255, 255, .3);
+  border-radius: 12px;
+  font-size: 16.2px;
+  font-weight: bold;
+  line-height: 56px;
+  color: #333;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main_banner .text_box > .btns .ico {
-width: 24px;
-height: 24px;
-display: block;
-background-image: url(../imgs/img_kabang_250717.png);
-margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  display: block;
+  background-image: url(../imgs/img_kabang_250717.png);
+  margin-right: 10px;
 }
 
 .main_banner .text_box > .btns .ico-1 {
-background-position: -341px -292px;
+  background-position: -341px -292px;
 }
 
 .main_banner .text_box > .btns .ico-2 {
-background-position: -371px -292px;
+  background-position: -371px -292px;
 }
 /* 텍스트 끝 */
 /* ------------- 메인 배너 끝 ------------- */
@@ -416,7 +418,7 @@ background-position: -371px -292px;
 
 /* ------------- 중간 섹션 시작 ------------- */
 /* 공통 섹션 시작 */
-    .md_sec {
+.md_sec {
   min-height: 750px;
   display: flex;
 }
@@ -906,6 +908,7 @@ background-position: -371px -292px;
   background-color: #f9f9f9;
   padding-top: 160px;
   padding-bottom: 110px;
+  position: relative;
 }
 
 .itskill_box h3 {
