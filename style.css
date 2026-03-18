@@ -219,7 +219,7 @@ header .menu_box .menu_box-sec_menu ul li a[target="_blank"]::after {
   width: 14px;
   height: 14px;
   display: inline-block;
-  background: url(../imgs/svg_line_outlink.svg);
+  background: url(imgs/svg_line_outlink.svg);
   background-size: 14px 14px;
   margin-left: 8px;
   margin-top: -2px;
@@ -263,7 +263,7 @@ header .drop_down .drop_btn::after {
   width: 12px;
   height: 12px;
   margin-left: 10px;
-  background: url(../imgs/svg_line_arrow_down.svg);
+  background: url(imgs/svg_line_arrow_down.svg);
   background-size: 12px;
   display: inline-block;
   transition: all .3s;
@@ -312,7 +312,7 @@ header .drop_down .drop_down_content a[target="_blank"]::after {
   width: 12px;
   height: 12px;
   display: inline-block;
-  background: url(../imgs/svg_line_outlink.svg);
+  background: url(imgs/svg_line_outlink.svg);
   background-size: 12px 12px;
   margin-left: 8px;
   margin-top: -3px;
@@ -401,7 +401,7 @@ margin-right: 12px;
   width: 24px;
   height: 24px;
   display: block;
-  background-image: url(../imgs/img_kabang_250717.png);
+  background-image: url(imgs/img_kabang_250717.png);
   margin-right: 10px;
 }
 
@@ -475,7 +475,7 @@ margin-right: 12px;
 .md_sec .txt_box > .btn_box > a > img {
   width: 6px;
   height: 9px;
-  margin: 2px 0 0 8px;
+  margin: -1px 0 0 8px;
 }
 /* 공통 섹션 끝 */
 
@@ -812,7 +812,7 @@ margin-right: 12px;
 .loan_box .btn_wrap a img {
   width: 6px;
   height: 9px;
-  margin: 2px 0 0 8px;
+  margin: -1px 0 0 8px;
 }
 
 .loan_box .img-box {
@@ -1063,7 +1063,7 @@ footer .box_3 .sns_box > ul > li > a {
 }
 
 footer .box_3 .sns_box .ico_sns {
-  background: url(../imgs/imgi_24_ico_sns.png);
+  background: url(imgs/imgi_24_ico_sns.png);
   height: 100%;
 }
 
